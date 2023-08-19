@@ -1,3 +1,7 @@
+:root {
+  --pr-color: #ffffff;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
