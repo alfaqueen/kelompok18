@@ -15,8 +15,22 @@
   font-weight: 700;
 }
 
-.hero-section {
-  display: grid;
-  place-items: center;
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   height: 100vh;
 }
+
+#hero .container {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+/* 
+#hero h1 {
+}
+
+#hero p {
+}
+ */
