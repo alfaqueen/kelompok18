@@ -1,5 +1,44 @@
 :root {
   --pr-color: #ffffff;
+  --primary: #EBEBEB;
+  --primary2: #D1CECE;
+  --primary3: #B2ADAD;
+  --secondary: #095571;
+  --secondary2: #3A768D;
+  --secondary3: #7DB0C1;
+  --dark-blue: #18437A;
+  --bg-grey: #f5f5f5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--dark-blue);
+  border-radius: 24px;
+  padding: 10px 32px;
+  min-width: 100px;
+  transition: all .2s;
+}
+
+.button-small {
+  font-size: small;
+  border-radius: 20px;
+  padding: 8px 24px;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #0a2d5b;
 }
 
 .navbar-brand .careerpath-text {
@@ -19,18 +58,67 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
 }
 
 #hero .container {
   text-align: center;
-  margin-top: 10vh;
+  margin: 0;
 }
 
-/* 
 #hero h1 {
+  font-size: 80px;
 }
 
-#hero p {
+#hero img {
+  width: 100%;
 }
- */
+
+#solution img {
+  width: 100%;
+}
+
+#solution .left p {
+  font-size: 24px;
+}
+
+#solution .left img {
+  width: 80%;
+}
+
+#solution a {
+  color: var(--secondary);
+}
+
+#solution .rounded-4 {
+  border: solid 1px var(--secondary);
+  border-radius: 16px;
+}
+
+#about {
+  background-color: var(--bg-grey);
+}
+
+#about .summary {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about .stat {
+  text-align: center;
+}
+
+#about .stat img {
+  height: 150px;
+}
+
+#job img {
+  height: 40px;
+}
+
+#job .joblist .p-4 {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40px -20px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 40px -20px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 40px -20px rgba(0,0,0,0.75);
+}
