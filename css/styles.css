@@ -49,6 +49,14 @@ section, footer {
   background-color: #0a2d5b;
 }
 
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar img {
+  width: 100%;
+}
+
 .navbar-brand .careerpath-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -211,7 +219,7 @@ section, footer {
 }
 
 .footer img {
-  width: 50px;
+  width: 60%;
 }
 
 .footer h1 {
